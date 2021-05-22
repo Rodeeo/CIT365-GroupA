@@ -8,25 +8,33 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Olea\\.nuget\\packages\\": {},
+    "C:\\Users\\jesse\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Olea\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\MegaDesk-Yaona.csproj",
       "projectName": "MegaDesk-Yaona",
       "projectPath": "C:\\Users\\Olea\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\MegaDesk-Yaona.csproj",
       "packagesPath": "C:\\Users\\Olea\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Olea\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\jesse\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\MegaDesk-Yaona.csproj",
+      "projectName": "MegaDesk-Yaona",
+      "projectPath": "C:\\Users\\jesse\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\MegaDesk-Yaona.csproj",
+      "packagesPath": "C:\\Users\\jesse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jesse\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\obj\\",
+>>>>>>> 3fcea93ad4024c2b469edfca18901f3966038e2f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Olea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
