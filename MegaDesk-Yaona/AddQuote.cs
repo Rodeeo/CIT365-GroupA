@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -84,7 +85,9 @@ namespace MegaDesk_Yaona
             int width = int.Parse(widthTextbox.Text);
             int depth = int.Parse(depthTextbox.Text);
             int drawers = Convert.ToInt32(Math.Round(drawersNumberInput.Value, 0));
-            string material = surfaceMaterialTextbox.Text;
+            // string material = surfaceMaterialTextbox.Text;
+            string material = desktopMaterialComboBox.SelectedItem.ToString();
+
             bool is_rush = rushCheckbox.Checked;
             int days;
             if (is_rush)
@@ -104,6 +107,13 @@ namespace MegaDesk_Yaona
             displayQuoteForm.Show(this);
             this.Hide();
 
+        }
+
+        private void AddQuote_Load(object sender, EventArgs e)
+        {
+            // List for surface materials
+            List<DesktopMaterial> materials = Enum.GetValues(typeof(DesktopMaterial)).Cast<DesktopMaterial>().ToList();
+            desktopMaterialComboBox.DataSource = materials;
         }
     }
 }
