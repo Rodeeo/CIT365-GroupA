@@ -16,6 +16,14 @@ namespace MegaDesk_Yaona
         {
             InitializeComponent();
             populateDataGridView();
+
+            // Make quote details blank
+            viewQuoteCustomerNameLabel.Text = "";
+            viewQuoteCostLabel.Text = "";
+            viewQuoteRushDaysLabel.Text = "";
+            viewQuoteSpecsLabel.Text = "";
+            viewQuoteMaterialLabel.Text = "";
+
         }
 
         private void populateDataGridView()
@@ -46,10 +54,26 @@ namespace MegaDesk_Yaona
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+            
         }
 
         private void ViewAllQuotes_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void viewQuotesGrid_SelectionChanged(object sender, EventArgs e)
+        {
+            if (viewQuotesGrid.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = viewQuotesGrid.SelectedRows[0];
+                // Show quote details 
+                viewQuoteCustomerNameLabel.Text = selectedRow.Cells[0].Value.ToString();
+                viewQuoteCostLabel.Text = selectedRow.Cells[3].Value.ToString();
+                viewQuoteDateLabel.Text = selectedRow.Cells[1].Value.ToString();
+                viewQuoteSpecsLabel.Text = selectedRow.Cells[2].Value.ToString();
+            }
+            
 
         }
     }

@@ -38,7 +38,8 @@ namespace MegaDesk_Yaona
             this.label5 = new System.Windows.Forms.Label();
             this.viewQuoteSpecsLabel = new System.Windows.Forms.Label();
             this.viewQuoteMaterialLabel = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.viewQuoteRushDaysLabel = new System.Windows.Forms.Label();
+            this.viewQuoteDateLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.viewQuotesGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +64,7 @@ namespace MegaDesk_Yaona
             this.viewQuotesGrid.Size = new System.Drawing.Size(540, 132);
             this.viewQuotesGrid.TabIndex = 1;
             this.viewQuotesGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.viewQuotesGrid.SelectionChanged += new System.EventHandler(this.viewQuotesGrid_SelectionChanged);
             // 
             // label1
             // 
@@ -87,7 +89,7 @@ namespace MegaDesk_Yaona
             // viewQuoteCustomerNameLabel
             // 
             this.viewQuoteCustomerNameLabel.AutoSize = true;
-            this.viewQuoteCustomerNameLabel.Location = new System.Drawing.Point(12, 264);
+            this.viewQuoteCustomerNameLabel.Location = new System.Drawing.Point(12, 270);
             this.viewQuoteCustomerNameLabel.Name = "viewQuoteCustomerNameLabel";
             this.viewQuoteCustomerNameLabel.Size = new System.Drawing.Size(38, 15);
             this.viewQuoteCustomerNameLabel.TabIndex = 4;
@@ -96,7 +98,7 @@ namespace MegaDesk_Yaona
             // viewQuoteCostLabel
             // 
             this.viewQuoteCostLabel.AutoSize = true;
-            this.viewQuoteCostLabel.Location = new System.Drawing.Point(12, 283);
+            this.viewQuoteCostLabel.Location = new System.Drawing.Point(13, 292);
             this.viewQuoteCostLabel.Name = "viewQuoteCostLabel";
             this.viewQuoteCostLabel.Size = new System.Drawing.Size(38, 15);
             this.viewQuoteCostLabel.TabIndex = 5;
@@ -115,7 +117,7 @@ namespace MegaDesk_Yaona
             // viewQuoteSpecsLabel
             // 
             this.viewQuoteSpecsLabel.AutoSize = true;
-            this.viewQuoteSpecsLabel.Location = new System.Drawing.Point(241, 277);
+            this.viewQuoteSpecsLabel.Location = new System.Drawing.Point(241, 270);
             this.viewQuoteSpecsLabel.Name = "viewQuoteSpecsLabel";
             this.viewQuoteSpecsLabel.Size = new System.Drawing.Size(38, 15);
             this.viewQuoteSpecsLabel.TabIndex = 7;
@@ -124,27 +126,37 @@ namespace MegaDesk_Yaona
             // viewQuoteMaterialLabel
             // 
             this.viewQuoteMaterialLabel.AutoSize = true;
-            this.viewQuoteMaterialLabel.Location = new System.Drawing.Point(241, 296);
+            this.viewQuoteMaterialLabel.Location = new System.Drawing.Point(241, 292);
             this.viewQuoteMaterialLabel.Name = "viewQuoteMaterialLabel";
             this.viewQuoteMaterialLabel.Size = new System.Drawing.Size(38, 15);
             this.viewQuoteMaterialLabel.TabIndex = 8;
             this.viewQuoteMaterialLabel.Text = "label7";
             // 
-            // label3
+            // viewQuoteRushDaysLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(241, 315);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "label3";
+            this.viewQuoteRushDaysLabel.AutoSize = true;
+            this.viewQuoteRushDaysLabel.Location = new System.Drawing.Point(241, 312);
+            this.viewQuoteRushDaysLabel.Name = "viewQuoteRushDaysLabel";
+            this.viewQuoteRushDaysLabel.Size = new System.Drawing.Size(38, 15);
+            this.viewQuoteRushDaysLabel.TabIndex = 9;
+            this.viewQuoteRushDaysLabel.Text = "label3";
+            // 
+            // viewQuoteDateLabel
+            // 
+            this.viewQuoteDateLabel.AutoSize = true;
+            this.viewQuoteDateLabel.Location = new System.Drawing.Point(13, 312);
+            this.viewQuoteDateLabel.Name = "viewQuoteDateLabel";
+            this.viewQuoteDateLabel.Size = new System.Drawing.Size(38, 15);
+            this.viewQuoteDateLabel.TabIndex = 10;
+            this.viewQuoteDateLabel.Text = "label3";
             // 
             // ViewAllQuotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 361);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.viewQuoteDateLabel);
+            this.Controls.Add(this.viewQuoteRushDaysLabel);
             this.Controls.Add(this.viewQuoteMaterialLabel);
             this.Controls.Add(this.viewQuoteSpecsLabel);
             this.Controls.Add(this.label5);
@@ -175,6 +187,7 @@ namespace MegaDesk_Yaona
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label viewQuoteSpecsLabel;
         private System.Windows.Forms.Label viewQuoteMaterialLabel;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label viewQuoteRushDaysLabel;
+        private System.Windows.Forms.Label viewQuoteDateLabel;
     }
 }
