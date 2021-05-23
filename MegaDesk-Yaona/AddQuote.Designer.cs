@@ -47,7 +47,6 @@ namespace MegaDesk_Yaona
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.addQuoteBtn = new System.Windows.Forms.Button();
             this.desktopMaterialComboBox = new System.Windows.Forms.ComboBox();
-            this.surfaceMaterialTextbox = new System.Windows.Forms.TextBox();
             drawersLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.drawersNumberInput)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -202,17 +201,10 @@ namespace MegaDesk_Yaona
             // desktopMaterialComboBox
             // 
             this.desktopMaterialComboBox.FormattingEnabled = true;
-            this.desktopMaterialComboBox.Location = new System.Drawing.Point(306, 224);
+            this.desktopMaterialComboBox.Location = new System.Drawing.Point(202, 224);
             this.desktopMaterialComboBox.Name = "desktopMaterialComboBox";
-            this.desktopMaterialComboBox.Size = new System.Drawing.Size(121, 23);
+            this.desktopMaterialComboBox.Size = new System.Drawing.Size(225, 23);
             this.desktopMaterialComboBox.TabIndex = 17;
-            // 
-            // surfaceMaterialTextbox
-            // 
-            this.surfaceMaterialTextbox.Location = new System.Drawing.Point(202, 223);
-            this.surfaceMaterialTextbox.Name = "surfaceMaterialTextbox";
-            this.surfaceMaterialTextbox.Size = new System.Drawing.Size(86, 23);
-            this.surfaceMaterialTextbox.TabIndex = 11;
             // 
             // AddQuote
             // 
@@ -225,7 +217,6 @@ namespace MegaDesk_Yaona
             this.Controls.Add(this.drawersNumberInput);
             this.Controls.Add(this.rushOrderDaysTextbox);
             this.Controls.Add(this.rushCheckbox);
-            this.Controls.Add(this.surfaceMaterialTextbox);
             this.Controls.Add(this.surfaceMaterialLabel);
             this.Controls.Add(drawersLabel);
             this.Controls.Add(this.depthTextbox);
@@ -265,6 +256,5 @@ namespace MegaDesk_Yaona
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Button addQuoteBtn;
         private System.Windows.Forms.ComboBox desktopMaterialComboBox;
-        private System.Windows.Forms.TextBox surfaceMaterialTextbox;
     }
 }

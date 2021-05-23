@@ -1,38 +1,15 @@
 [
   {
-    "name": "Harry Potter",
+    "customerName": "Harry Potter",
     "date": "2021-01-01",
-    "rushOption": 1,
+    "is_rush": 1,
+    "rushDays": 0,
+    "totalCost": 2000,
     "desk": {
       "width": 50,
       "depth": 30,
-      "numDrawers": 1,
-      "surfaceMaterial": "Pine",
-      "rushOption": 5
-    }
-  },
-  {
-    "name": "Tony Stark",
-    "date": "2021-01-01",
-    "rushOption": 1,
-    "desk": {
-      "width": 50,
-      "depth": 30,
-      "numDrawers": 2,
-      "surfaceMaterial": "Pine",
-      "rushOption": 5
-    }
-  },
-  {
-    "name": "Bruce Wayne",
-    "date": "2021-01-01",
-    "rushOption": 1,
-    "desk": {
-      "width": 50,
-      "depth": 30,
-      "numDrawers": 3,
-      "surfaceMaterial": "Pine",
-      "rushOption": 5
+      "drawers": 1,
+      "material": "Pine"
     }
   }
 ]

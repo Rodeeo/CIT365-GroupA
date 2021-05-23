@@ -1,14 +1,10 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "sWl3trXb9t0ZZmqBwkdIv6vkpQbT2qhCHRluIBqiCQGDpCJsccWMe90lIfK4WWd2IIoEJGf9d9/fxMi6Lyvz7w==",
+  "dgSpecHash": "SGvVeqWhmGQSeAt7qJr91xQC0WnCOPV+j8F6AOxZ254LvMcU1rRoHEOTnst+PqmaqH9BIzi9Dk1L8+2EYs7s5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Olea\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\MegaDesk-Yaona.csproj",
-=======
-  "dgSpecHash": "v65gnftyWiq5UZRJQU7v9hP+rXlSZ0pUQ63nWqi0KP2oEAZvLkMt1+FZfltQNIyML6SlmnTel4+JYB+CVqNZpA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\jesse\\Source\\Repos\\CIT365-GroupA\\MegaDesk-Yaona\\MegaDesk-Yaona.csproj",
->>>>>>> 3fcea93ad4024c2b469edfca18901f3966038e2f
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Olea\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

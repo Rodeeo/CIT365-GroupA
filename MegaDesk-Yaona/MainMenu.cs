@@ -12,9 +12,14 @@ namespace MegaDesk_Yaona
 {
     public partial class MainMenu : Form
     {
+        private FileManager filemanager = new FileManager();
+
         public MainMenu()
         {
             InitializeComponent();
+
+            // Get data from file upon init
+            filemanager.ReadFile();
         }
 
         private void AddNewQuoteBtn_Click(object sender, EventArgs e)
@@ -43,8 +48,14 @@ namespace MegaDesk_Yaona
 
         private void ExitBtn_Click(object sender, EventArgs e)
         {
+            // Before closing, save quotes to file
+            filemanager.SaveToJson();
             Application.Exit();
         }
 
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

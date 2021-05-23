@@ -11,7 +11,6 @@ namespace MegaDesk_Yaona
 {
     public partial class AddQuote : Form
     {
-
         public AddQuote()
         {
             InitializeComponent();
@@ -98,10 +97,14 @@ namespace MegaDesk_Yaona
                 days = 0;
             }
             
-
+            // Instantiate quote
             Desk desk = new Desk(width, depth, drawers, material);
             DeskQuote quote = new DeskQuote(customerName, desk, is_rush, days);
 
+            // Save quote
+            FileManager.AddQuote(quote);
+
+            // Populate form
             DisplayQuote displayQuoteForm = new DisplayQuote(quote);
             displayQuoteForm.Tag = this;
             displayQuoteForm.Show(this);

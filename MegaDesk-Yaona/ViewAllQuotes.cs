@@ -14,23 +14,24 @@ namespace MegaDesk_Yaona
         public List<DataGridView> Data { get; set; }
         public ViewAllQuotes()
         {
-            Data = GetData();
             InitializeComponent();
+            populateDataGridView();
         }
 
-        private List<DataGridView> GetData()
+        private void populateDataGridView()
         {
-            var list = new List<DataGridView>();
-            list.Add(new DataGridView()
-            {
-                Customer = ,
-                DateOrdered =,
-                Dimension =,
-                Material =,
-                Price = 
-            }) ;
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Customer");
+            dt.Columns.Add("Date");
+            dt.Columns.Add("Specifications");
+            dt.Columns.Add("Quote Price");
 
-            return list;
+            foreach(DeskQuote quote in FileManager.quotesList)
+            {
+                dt.Rows.Add(new object[] { quote.customerName, quote.date, quote.desk.width + "in x " + quote.desk.depth + "in", quote.totalCost });
+            }
+
+            viewQuotesGrid.DataSource = dt;
         }
 
         private void BackBtn_Click(object sender, EventArgs e)
@@ -40,6 +41,16 @@ namespace MegaDesk_Yaona
             MainMenu mainMenuForm = (MainMenu)Tag;
             mainMenuForm.Show();
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ViewAllQuotes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

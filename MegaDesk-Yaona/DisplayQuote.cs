@@ -34,5 +34,10 @@ namespace MegaDesk_Yaona
             addQuoteForm.Show();
             this.Hide();
         }
+
+        private void DisplayQuote_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "desk": {
+      "width": 50,
+      "depth": 30,
+      "drawers": 1,
+      "material": 4
+    },
+    "is_rush": true,
+    "rushDays": 0,
+    "totalCost": 2000,
+    "date": "2021-01-01",
+    "customerName": "Harry Potter"
+  },
+  {
+    "desk": {
+      "width": 35,
+      "depth": 35,
+      "drawers": 0,
+      "material": 0
+    },
+    "is_rush": true,
+    "rushDays": 0,
+    "totalCost": 625,
+    "date": "May 22, 2021",
+    "customerName": "AJ"
+  }
+]

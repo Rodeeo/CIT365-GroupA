@@ -1,26 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace MegaDesk_Yaona
 {
     public class DeskQuote
     {
         public string customerName { get; set; }
-        private Desk desk;
+        public Desk desk;
         public bool is_rush;
-        public int days;
+        public int rushDays;
         public int totalCost;
+        public string date;
+        private static List<DeskQuote> quotesList = new List<DeskQuote>();
+        // private const string JSON_QUOTES_FILE = File.ReadAllText(@"quotes.json");
 
         public const int BASE_PRICE = 200;
 
     
-        public DeskQuote(string name, Desk desk, bool rush, int days)
+        public DeskQuote(string name, Desk desk, bool rush, int rushDays)
         {
             this.customerName = name;
             this.desk = desk;
             this.is_rush = rush;
-            this.days = days;
+            this.rushDays = rushDays;
+            this.date = DateTime.Now.ToString("MMMM dd, yyyy");
+            this.totalCost = getTotalCost();
         }
 
         public Desk getDesk() { return desk; }
@@ -30,7 +37,7 @@ namespace MegaDesk_Yaona
             totalCost = BASE_PRICE + getSurfaceAreaCost() + getDrawerCost() + getSurfaceMaterialCost(desk.material.ToString());
             if (is_rush)
             {
-                totalCost += getRushOrderCost(this.days);
+                totalCost += getRushOrderCost(this.rushDays);
             }
 
             return totalCost;
@@ -120,7 +127,28 @@ namespace MegaDesk_Yaona
 
             }
             return 0;
+
         }
+
+        public static void saveQuote(DeskQuote quote)
+        {
+            // System.Diagnostics.Debug.WriteLine("JSON FILE: " + JSON_QUOTES_FILE);
+            StreamReader r = new StreamReader("C:\\Users\\Olea\\source\\repos\\CIT365-GroupA\\MegaDesk-Yaona\\quotes.json");
+            string json = r.ReadToEnd();
+            System.Diagnostics.Debug.WriteLine(json);
+            // Load quotes from quotes.json file
+            List<DeskQuote> quotes = JsonConvert.DeserializeObject<List<DeskQuote>>(json);
+            // Add new quote
+            quotes.Add(quote);
+            // Serialize the list
+            string quotesJson = JsonConvert.SerializeObject(quotes, Formatting.Indented);
+            System.Diagnostics.Debug.WriteLine(quotesJson);
+            //  Save it to the file
+            File.WriteAllText("quotes.json", quotesJson);
+
+        }
+
+
 
 
 
