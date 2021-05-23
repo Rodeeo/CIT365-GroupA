@@ -10,7 +10,7 @@ namespace MegaDesk_Yaona
     class FileManager
     {
         private const string JSON_FILE = @"quotes.json";
-        public static List<DeskQuote> quotesList;
+        public static List<DeskQuote> quotesList = new List<DeskQuote>();
 
         public FileManager() 
         {

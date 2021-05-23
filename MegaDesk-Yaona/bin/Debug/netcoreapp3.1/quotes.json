@@ -16,12 +16,77 @@
     "desk": {
       "width": 35,
       "depth": 35,
-      "drawers": 0,
+      "drawers": 3,
+      "material": 2
+    },
+    "is_rush": false,
+    "rushDays": 0,
+    "totalCost": 800,
+    "date": "2020-01-01",
+    "customerName": "John Doe"
+  },
+  {
+    "desk": {
+      "width": 40,
+      "depth": 35,
+      "drawers": 1,
+      "material": 1
+    },
+    "is_rush": true,
+    "rushDays": 0,
+    "totalCost": 1200,
+    "date": "2021-08-08",
+    "customerName": "Jane Doe"
+  },
+  {
+    "desk": {
+      "width": 50,
+      "depth": 40,
+      "drawers": 5,
       "material": 0
     },
     "is_rush": true,
     "rushDays": 0,
-    "totalCost": 625,
+    "totalCost": 18000,
+    "date": "2000-01-01",
+    "customerName": "The Dumbledorer"
+  },
+  {
+    "desk": {
+      "width": 50,
+      "depth": 30,
+      "drawers": 1,
+      "material": 4
+    },
+    "is_rush": true,
+    "rushDays": 0,
+    "totalCost": 3000,
+    "date": "2021-01-01",
+    "customerName": "Phillip McDuck"
+  },
+  {
+    "desk": {
+      "width": 30,
+      "depth": 30,
+      "drawers": 1,
+      "material": 2
+    },
+    "is_rush": true,
+    "rushDays": 0,
+    "totalCost": 600,
+    "date": "2019-01-01",
+    "customerName": "Wiggly Pigly"
+  },
+  {
+    "desk": {
+      "width": 35,
+      "depth": 35,
+      "drawers": 0,
+      "material": 0
+    },
+    "is_rush": true,
+    "rushDays": 3,
+    "totalCost": 695,
     "date": "May 22, 2021",
     "customerName": "AJ"
   }

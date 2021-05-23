@@ -11,5 +11,70 @@
       "drawers": 1,
       "material": "Pine"
     }
+  },
+  {
+    "customerName": "John Doe",
+    "date": "2020-01-01",
+    "is_rush": 0,
+    "rushDays": 0,
+    "totalCost": 800,
+    "desk": {
+      "width": 35,
+      "depth": 35,
+      "drawers": 3,
+      "material": "Rosewood"
+    }
+  },
+  {
+    "customerName": "Jane Doe",
+    "date": "2021-08-08",
+    "is_rush": 1,
+    "rushDays": 0,
+    "totalCost": 1200,
+    "desk": {
+      "width": 40,
+      "depth": 35,
+      "drawers": 1,
+      "material": "Oak"
+    }
+  },
+  {
+    "customerName": "The Dumbledorer",
+    "date": "2000-01-01",
+    "is_rush": 1,
+    "rushDays": 0,
+    "totalCost": 18000,
+    "desk": {
+      "width": 50,
+      "depth": 40,
+      "drawers": 5,
+      "material": "Laminate"
+    }
+  },
+  {
+    "customerName": "Phillip McDuck",
+    "date": "2021-01-01",
+    "is_rush": 1,
+    "rushDays": 0,
+    "totalCost": 3000,
+    "desk": {
+      "width": 50,
+      "depth": 30,
+      "drawers": 1,
+      "material": "Pine"
+    }
+  },
+  {
+    "customerName": "Wiggly Pigly",
+    "date": "2019-01-01",
+    "is_rush": 1,
+    "rushDays": 0,
+    "totalCost": 600,
+    "desk": {
+      "width": 30,
+      "depth": 30,
+      "drawers": 1,
+      "material": "Rosewood"
+    }
   }
 ]
