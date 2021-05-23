@@ -22,7 +22,7 @@ namespace MegaDesk_Yaona
             {
                 try
                 {
-                    StreamReader r = new StreamReader("C:\\Users\\Olea\\source\\repos\\CIT365-GroupA\\MegaDesk-Yaona\\quotes.json");
+                    StreamReader r = new StreamReader(JSON_FILE);
                     
                     // Read json string from file
                     string json = r.ReadToEnd();
