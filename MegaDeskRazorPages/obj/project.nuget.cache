@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3+U5gBo4/1IeyD0nkAq2QilmZq/pmCe32XFMf6oAd0kAozAZgqzeW4SfvoQ0MbkU2Q6CgOb3qP9VWqtAGY74rg==",
+  "dgSpecHash": "XiXk6wd9WOI1NrgEx9OCvMRrMYIUBmbQh6gEhzAiAlrFQmugAPjqwVBhd4RmevN3CZmjZNeSNWtJnqDKFWjsDA==",
   "success": true,
-  "projectFilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
+  "projectFilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
   "expectedPackageFiles": [
     "/Users/kaynarasilva/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/kaynarasilva/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

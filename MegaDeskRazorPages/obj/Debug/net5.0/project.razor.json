@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
+  "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,113 +15619,113 @@
   "RootNamespace": "MegaDeskRazorPages",
   "Documents": [
     {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Rushes/Edit.cshtml",
-      "TargetPath": "Pages\\Rushes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DeskQuotes/Details.cshtml",
-      "TargetPath": "Pages\\DeskQuotes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DesktopMaterials/Delete.cshtml",
-      "TargetPath": "Pages\\DesktopMaterials\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DeskQuotes/Create.cshtml",
-      "TargetPath": "Pages\\DeskQuotes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DesktopMaterials/Create.cshtml",
-      "TargetPath": "Pages\\DesktopMaterials\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DeskQuotes/Edit.cshtml",
-      "TargetPath": "Pages\\DeskQuotes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DesktopMaterials/Edit.cshtml",
-      "TargetPath": "Pages\\DesktopMaterials\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DeskQuotes/Index.cshtml",
-      "TargetPath": "Pages\\DeskQuotes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Rushes/Delete.cshtml",
-      "TargetPath": "Pages\\Rushes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DeskQuotes/Delete.cshtml",
-      "TargetPath": "Pages\\DeskQuotes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Rushes/Index.cshtml",
-      "TargetPath": "Pages\\Rushes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Rushes/Create.cshtml",
-      "TargetPath": "Pages\\Rushes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DesktopMaterials/Index.cshtml",
-      "TargetPath": "Pages\\DesktopMaterials\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Rushes/Details.cshtml",
-      "TargetPath": "Pages\\Rushes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/Shared/_Layout.cshtml",
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/Pages/DesktopMaterials/Details.cshtml",
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DesktopMaterials/Index.cshtml",
+      "TargetPath": "Pages\\DesktopMaterials\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DeskQuotes/Create.cshtml",
+      "TargetPath": "Pages\\DeskQuotes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Rushes/Details.cshtml",
+      "TargetPath": "Pages\\Rushes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DesktopMaterials/Details.cshtml",
       "TargetPath": "Pages\\DesktopMaterials\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DesktopMaterials/Delete.cshtml",
+      "TargetPath": "Pages\\DesktopMaterials\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Rushes/Index.cshtml",
+      "TargetPath": "Pages\\Rushes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DeskQuotes/Index.cshtml",
+      "TargetPath": "Pages\\DeskQuotes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DeskQuotes/Delete.cshtml",
+      "TargetPath": "Pages\\DeskQuotes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DesktopMaterials/Edit.cshtml",
+      "TargetPath": "Pages\\DesktopMaterials\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DeskQuotes/Details.cshtml",
+      "TargetPath": "Pages\\DeskQuotes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Rushes/Edit.cshtml",
+      "TargetPath": "Pages\\Rushes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DeskQuotes/Edit.cshtml",
+      "TargetPath": "Pages\\DeskQuotes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/DesktopMaterials/Create.cshtml",
+      "TargetPath": "Pages\\DesktopMaterials\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Rushes/Create.cshtml",
+      "TargetPath": "Pages\\Rushes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/Pages/Rushes/Delete.cshtml",
+      "TargetPath": "Pages\\Rushes\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

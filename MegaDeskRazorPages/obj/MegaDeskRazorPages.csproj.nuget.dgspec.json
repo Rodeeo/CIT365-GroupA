@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {}
+    "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {}
   },
   "projects": {
-    "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {
+    "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
+        "projectUniqueName": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
         "projectName": "MegaDeskRazorPages",
-        "projectPath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
+        "projectPath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
         "packagesPath": "/Users/kaynarasilva/.nuget/packages/",
-        "outputPath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazorPages/obj/",
+        "outputPath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kaynarasilva/.nuget/NuGet/NuGet.Config"
