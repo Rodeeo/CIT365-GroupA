@@ -1,21 +1,18 @@
 @page
 @model MegaDeskRazor.Pages.DeskQuotes.IndexModel
 
-@{
-    ViewData["Title"] = "Index";
-}
+@{ ViewData["Title"] = "Index"; }
 
-<h1>Index</h1>
-
-<p>
-    <a class="reg-btn" asp-page="Create">Create New</a>
-</p>
+<div style="display: flex;">
+    <h1>Desk Quotes</h1>
+    <a class="btn btn-primary reg-btn add-btn" href="/DeskQuotes/Create" title="Create New Quote"> <h3>&#43;</h3></a>
+</div>
 
 <!-- Search bar -->
-<form>
-    <p>
-        Search by customer name: <input type="text" asp-for="SearchString" placeholder="E.g. Joe" />
-        <input class="btn-primary" type="submit" value="Filter"/>
+<form class="row">
+    <p class="col-md-4" style="display: flex;">
+        <input class="form-control" type="text" placeholder="&#128269  Search by customer name" id="SearchString" name="SearchString" value="" />
+        <input class="btn btn-primary" type="submit" value="Filter" />
     </p>
 </form>
 
@@ -47,31 +44,30 @@
     <tbody>
         @foreach (var item in Model.DeskQuote)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CustomerName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Desk.Width) X @Html.DisplayFor(modelItem => item.Desk.Depth)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Desk.Material.Material)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateEntry)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Rush.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TotalCost)
-                </td>
-                <td>
-                    <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-                </td>
-            </tr>
-        }
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.CustomerName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Desk.Width) X @Html.DisplayFor(modelItem => item.Desk.Depth)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Desk.Material.Material)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DateEntry)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Rush.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TotalCost)
+    </td>
+    <td>
+        <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+        <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+        <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+    </td>
+</tr>}
     </tbody>
 </table>
