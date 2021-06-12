@@ -8,8 +8,18 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a class="reg-btn" asp-page="Create">Create New</a>
 </p>
+
+<!-- Search bar -->
+<form>
+    <p>
+        Note: <input type="text" asp-for="SearchString" placeholder="E.g. Joe" />
+        <input class="btn-primary" type="submit" value="Filter"/>
+    </p>
+</form>
+
+
 <table class="table">
     <thead>
         <tr>

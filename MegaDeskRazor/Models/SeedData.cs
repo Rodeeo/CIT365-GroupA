@@ -14,7 +14,7 @@ namespace MegaDeskRazorPages.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<MegaDeskRazorContext>>()))
             {
-                // Look for any movies.
+                // Look for existing data
                 if (context.DesktopMaterial.Any())
                 {
                     return;   // DB has been seeded

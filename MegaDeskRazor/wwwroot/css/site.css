@@ -116,11 +116,18 @@ body {
     border-radius: 5px;
 }
 
-    .landing-page-btn:hover {
-        background-color: #0e275c;
-        color: white;
-        text-decoration: none;
-    }
+.landing-page-btn:hover {
+    background-color: #0e275c;
+    color: white;
+    text-decoration: none;
+}
+
+/* DESK QUOTE PAGE STYLES*/
+.reg-btn {
+
+}
+
+
 
 @media only screen and (min-width: 60em) {
     #landing-page-content {

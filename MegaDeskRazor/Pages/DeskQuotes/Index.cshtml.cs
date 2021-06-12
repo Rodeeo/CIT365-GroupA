@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using MegaDeskRazorPages.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MegaDeskRazor.Pages.DeskQuotes
 {
@@ -20,12 +21,33 @@ namespace MegaDeskRazor.Pages.DeskQuotes
 
         public IList<DeskQuote> DeskQuote { get; set; }
 
+        // Search feature vars
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+
         public async Task OnGetAsync()
         {
-            DeskQuote = await _context.DeskQuote
+            // Get all quotes
+            var quotes = from m in _context.DeskQuote
+                             select m;
+
+            foreach (DeskQuote quote in quotes)
+            {
+                Console.WriteLine("Customer: " + quote.CustomerName);
+            }
+
+            // if search bar is not empty
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                Console.WriteLine("Search string: " + SearchString);
+                quotes = quotes.Where(s => s.CustomerName.Contains(SearchString));
+            }
+
+            DeskQuote = await quotes
                 .Include(d => d.Desk)
                 .Include(d => d.Desk.Material)
                 .Include(d => d.Rush).ToListAsync();
+
         }
     }
 }
