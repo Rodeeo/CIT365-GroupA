@@ -40,7 +40,7 @@ namespace MegaDeskRazor.Pages.DeskQuotes
             if (!string.IsNullOrEmpty(SearchString))
             {
                 Console.WriteLine("Search string: " + SearchString);
-                quotes = quotes.Where(s => s.CustomerName.Contains(SearchString));
+                quotes = quotes.Where(s => s.CustomerName.ToLower().Contains(SearchString.ToLower()));
             }
 
             DeskQuote = await quotes
