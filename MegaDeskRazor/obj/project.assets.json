@@ -7434,19 +7434,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/kaynarasilva/.nuget/packages/": {}
+    "/Users/olea/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazor/MegaDeskRazor.csproj",
+      "projectUniqueName": "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazor/MegaDeskRazor.csproj",
       "projectName": "MegaDeskRazor",
-      "projectPath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazor/MegaDeskRazor.csproj",
-      "packagesPath": "/Users/kaynarasilva/.nuget/packages/",
-      "outputPath": "/Users/kaynarasilva/Documents/dev/dotnet/MegaDeskRazor/obj/",
+      "projectPath": "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazor/MegaDeskRazor.csproj",
+      "packagesPath": "/Users/olea/.nuget/packages/",
+      "outputPath": "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazor/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kaynarasilva/.nuget/NuGet/NuGet.Config"
+        "/Users/olea/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7507,7 +7507,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }
