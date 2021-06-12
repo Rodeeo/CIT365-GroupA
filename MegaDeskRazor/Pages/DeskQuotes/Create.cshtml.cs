@@ -18,11 +18,16 @@ namespace MegaDeskRazor.Pages.DeskQuotes
             _context = context;
         }
 
+        public SelectList Materials { get; set; }
+
         public IActionResult OnGet()
         {
             ViewData["DeskID"] = new SelectList(_context.Desk, "ID", "ID");
             ViewData["RushID"] = new SelectList(_context.Rush, "ID", "Description");
             ViewData["MaterialID"] = new SelectList(_context.DesktopMaterial, "ID", "Material");
+
+            
+
             return Page();
         }
 
