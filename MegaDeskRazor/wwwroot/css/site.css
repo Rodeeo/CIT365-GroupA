@@ -69,3 +69,101 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+
+/**********************
+*   CUSTOM STYLES
+**********************/
+#landing-page-content {
+    color: #3971ed;
+    text-align: center;
+    margin: auto;
+}
+
+    #landing-page-content h1 {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 2.5em;
+    }
+
+    #landing-page-content p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }
+
+#langing-page-images {
+    display: none;
+}
+
+#sw-js-blob-svg {
+    display: none;
+}
+
+#desk-icon {
+    display: block;
+    margin: auto;
+}
+
+.navbar-brand {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6em;
+}
+
+.landing-page-btn {
+    background-color: white;
+    color: #0b192e;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+    .landing-page-btn:hover {
+        background-color: #0e275c;
+        color: white;
+        text-decoration: none;
+    }
+
+@media only screen and (min-width: 60em) {
+    #landing-page-content {
+        color: white;
+        margin-top: -55%;
+        margin-bottom: 20%;
+        display: flex;
+        text-align: left;
+    }
+
+        #landing-page-content div:nth-child(1) {
+            width: 60%;
+        }
+
+    #sw-js-blob-svg {
+        display: block;
+        width: 120%;
+        margin: -60% 0 0 -400px;
+    }
+
+    #langing-page-images {
+        display: block;
+        text-align: center;
+    }
+
+        #langing-page-images img:nth-child(1) {
+            width: 45%;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+
+        #langing-page-images img:nth-child(2) {
+            width: 30%;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+
+        #langing-page-images img:nth-child(3) {
+            display: block;
+            width: 35%;
+            margin: -100px 0 0 300px;
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+
+    #desk-icon {
+        display: none;
+    }
+}
