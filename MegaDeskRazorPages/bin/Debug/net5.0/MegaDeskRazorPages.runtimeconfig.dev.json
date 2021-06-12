@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/kaynarasilva/.dotnet/store/|arch|/|tfm|",
-      "/Users/kaynarasilva/.nuget/packages"
+      "/Users/olea/.dotnet/store/|arch|/|tfm|",
+      "/Users/olea/.nuget/packages"
     ]
   }
 }

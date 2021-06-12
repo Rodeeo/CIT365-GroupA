@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
         "packagesPath": "/Users/kaynarasilva/.nuget/packages/",
         "outputPath": "/Users/kaynarasilva/Documents/dev/dotnet/CIT365-GroupA/MegaDeskRazorPages/obj/",
+=======
+    "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {}
+  },
+  "projects": {
+    "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
+        "projectName": "MegaDeskRazorPages",
+        "projectPath": "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazorPages/MegaDeskRazorPages.csproj",
+        "packagesPath": "/Users/olea/.nuget/packages/",
+        "outputPath": "/Users/olea/Desktop/CIT365-GroupA/MegaDeskRazorPages/obj/",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kaynarasilva/.nuget/NuGet/NuGet.Config"
+          "/Users/olea/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -75,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
