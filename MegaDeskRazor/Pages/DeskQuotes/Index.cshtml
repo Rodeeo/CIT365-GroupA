@@ -1,0 +1,67 @@
+@page
+@model MegaDeskRazor.Pages.DeskQuotes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskQuote[0].CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskQuote[0].Desk)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskQuote[0].Desk.Material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskQuote[0].DateEntry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskQuote[0].Rush)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeskQuote[0].TotalCost)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.DeskQuote)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Desk.Width) X @Html.DisplayFor(modelItem => item.Desk.Depth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Desk.Material.Material)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEntry)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rush.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalCost)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
