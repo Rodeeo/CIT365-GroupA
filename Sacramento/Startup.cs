@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Sacramento.Data;
 
 namespace Sacramento
 {
@@ -24,6 +26,9 @@ namespace Sacramento
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<SacramentoContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("SacramentoContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
