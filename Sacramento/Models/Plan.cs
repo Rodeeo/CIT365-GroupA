@@ -14,12 +14,12 @@ namespace Sacramento.Models
 
         public int PresidingLeaderID { get; set; }
 
-        [Display(Name = "Presiding")]
+        [Display(Name = "Presided By")]
         public Leader PresidingLeader { get; set; }
 
         public int ConductingLeaderID { get; set; }
 
-        [Display(Name = "Conducting")]
+        [Display(Name = "Conducted By")]
         public Leader ConductingLeader { get; set; }
 
         public int OpeningSongID { get; set; }
