@@ -5,18 +5,19 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  margin-right: 0;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0088f0;
 }
 
-.btn-primary {
+/*.btn-primary {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
+}*/
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
@@ -81,6 +82,17 @@ body {
     margin: auto;
 }
 
+.text-green {
+    color: #3d7d45;
+}
+
+.text-green:hover {
+    color: white;
+}
+
+/*  #3d7d45 */
+
+
 /* NAV */
 .brand img {
     max-width: 80px;
@@ -96,4 +108,43 @@ body {
 .nav-item:hover {
     font-weight: bolder;
     color: green;
+}
+.btn {
+    border: 1px solid #3d7d45;
+    padding: 7px 14px;
+    color: #3d7d45;
+}
+.btn:hover {
+    color: #45b052;
+    border: 1px solid #45b052;
+}
+.btn-highlight, .btn-primary {
+    background-color: #3d7d45;
+    color: white;
+}
+.btn-highlight:hover {
+    color: white;
+}
+.btn-danger {
+    color: white;
+    border-color: white;
+}
+.btn-danger:hover {
+    color: white;
+}
+
+/* Plan details*/
+.plan-detail {
+    border: 1px solid #a3a3a3;
+    margin: 40px;
+    padding: 40px;
+    background-color: #fafafa;
+}
+.plan-detail h4 {
+    margin: 0;
+    font-family: 'STIX Two Math', serif;
+    font-weight: bold;
+}
+.plan-detail dt {
+    font-family: 'STIX Two Math', serif;
 }

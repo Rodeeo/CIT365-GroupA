@@ -8,7 +8,7 @@
 <h1>Sacrament Meeting Plans</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a class="btn btn-highlight" asp-page="Create">Create New +</a>
 </p>
 <table class="table">
     <thead>
@@ -39,7 +39,7 @@
                         @Html.DisplayFor(modelItem => item.ConductingLeader.Name)
                     </td>
                     <td>
-                        <a asp-page="./Details" asp-route-id="@item.ID">View</a> 
+                        <a asp-page="./Details" asp-route-id="@item.ID">View &#8594;</a> 
                     </td>
             </tr>
         }
