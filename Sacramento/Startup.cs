@@ -25,6 +25,8 @@ namespace Sacramento
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession(options => { options.IdleTimeout = TimeSpan.FromMinutes(60); });
+            services.AddMemoryCache();
             services.AddRazorPages();
 
             services.AddDbContext<SacramentoContext>(options =>
@@ -47,7 +49,7 @@ namespace Sacramento
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthorization();

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olea\\Desktop\\cit365\\Sacramento\\Sacramento.csproj": {}
+    "C:\\Users\\danie\\source\\repos\\CIT365-GroupA\\Sacramento\\Sacramento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olea\\Desktop\\cit365\\Sacramento\\Sacramento.csproj": {
+    "C:\\Users\\danie\\source\\repos\\CIT365-GroupA\\Sacramento\\Sacramento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olea\\Desktop\\cit365\\Sacramento\\Sacramento.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\CIT365-GroupA\\Sacramento\\Sacramento.csproj",
         "projectName": "Sacramento",
-        "projectPath": "C:\\Users\\Olea\\Desktop\\cit365\\Sacramento\\Sacramento.csproj",
-        "packagesPath": "C:\\Users\\Olea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olea\\Desktop\\cit365\\Sacramento\\obj\\",
+        "projectPath": "C:\\Users\\danie\\source\\repos\\CIT365-GroupA\\Sacramento\\Sacramento.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\source\\repos\\CIT365-GroupA\\Sacramento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Olea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

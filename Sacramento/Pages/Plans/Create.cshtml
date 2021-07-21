@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post">
+        <form method="post" asp-page-handler="OnPost">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Plan.MeetingDate" class="control-label"></label>
@@ -19,15 +19,15 @@
             </div>
             <div class="form-group">
                 <label asp-for="Plan.PresidingLeaderID" class="control-label">Presiding Leader</label>
-                <select asp-for="Plan.PresidingLeaderID" class ="form-control" asp-items="ViewBag.PresidingLeaderID"></select>
+                <select asp-for="Plan.PresidingLeaderID" class="form-control" asp-items="ViewBag.PresidingLeaderID"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Plan.ConductingLeaderID" class="control-label">Conducting Leader</label>
-                <select asp-for="Plan.ConductingLeaderID" class ="form-control" asp-items="ViewBag.ConductingLeaderID"></select>
+                <select asp-for="Plan.ConductingLeaderID" class="form-control" asp-items="ViewBag.ConductingLeaderID"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Plan.OpeningSongID" class="control-label">Opening Hymn</label>
-                <select asp-for="Plan.OpeningSongID" class ="form-control" asp-items="ViewBag.OpeningSongID"></select>
+                <select asp-for="Plan.OpeningSongID" class="form-control" asp-items="ViewBag.OpeningSongID"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Plan.OpeningPrayer" class="control-label">Opening Prayer</label>
@@ -36,15 +36,15 @@
             </div>
             <div class="form-group">
                 <label asp-for="Plan.SacramentHymnID" class="control-label">Sacrament Hymn</label>
-                <select asp-for="Plan.SacramentHymnID" class ="form-control" asp-items="ViewBag.SacramentHymnID"></select>
+                <select asp-for="Plan.SacramentHymnID" class="form-control" asp-items="ViewBag.SacramentHymnID"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Plan.IntermediateSongID" class="control-label">Intermediate Number</label>
-                <select asp-for="Plan.IntermediateSongID" class ="form-control" asp-items="ViewBag.IntermediateSongID"></select>
+                <select asp-for="Plan.IntermediateSongID" class="form-control" asp-items="ViewBag.IntermediateSongID"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Plan.ClosingSongID" class="control-label">Closing Hymn</label>
-                <select asp-for="Plan.ClosingSongID" class ="form-control" asp-items="ViewBag.ClosingSongID"></select>
+                <select asp-for="Plan.ClosingSongID" class="form-control" asp-items="ViewBag.ClosingSongID"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Plan.ClosingPrayer" class="control-label">Closing Prayer</label>
@@ -56,12 +56,13 @@
             </div>
         </form>
     </div>
-</div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
+    </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    <div>
+        <a asp-page="Index">Back to List</a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

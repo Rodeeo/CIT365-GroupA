@@ -39,7 +39,8 @@
                         @Html.DisplayFor(modelItem => item.ConductingLeader.Name)
                     </td>
                     <td>
-                        <a asp-page="./Details" asp-route-id="@item.ID">View &#8594;</a> 
+                        <a asp-page="./AddSpeaker" asp-route-id="@item.ID">Add Speaker  |  </a>
+                        <a asp-page="./Details" asp-route-id="@item.ID">View &#8594;</a>
                     </td>
             </tr>
         }

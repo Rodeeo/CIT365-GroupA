@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -21,8 +23,7 @@ namespace Sacramento.Pages.Plans
 
         public IActionResult OnGet()
         {
-            string date = DateTime.Now.ToString("yyyy-MM-dd");
-            ViewData["MeetingDate"] = date;
+            ViewData["MeetingDate"] = DateTime.Now.ToString("yyyy-MM-dd");
             ViewData["ClosingSongID"] = new SelectList(_context.Hymn, "ID", "Name");
             ViewData["ConductingLeaderID"] = new SelectList(_context.Leader, "ID", "Name");
             ViewData["IntermediateSongID"] = new SelectList(_context.Hymn, "ID", "Name");
@@ -42,7 +43,7 @@ namespace Sacramento.Pages.Plans
             {
                 return Page();
             }
-
+            
             _context.Plan.Add(Plan);
             await _context.SaveChangesAsync();
 
